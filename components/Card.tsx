@@ -1,18 +1,25 @@
 import "./Card.css";
+import Image from "next/image";
 
 const Card: React.FC = () => {
   return (
     <div className="card flex flex-col">
       <div className="action flex">
         <div className="rect">
-          <img className="rectangle" src="images/czi3.jpg" alt="rectangle" />
+          <Image
+            width={300}
+            height={200}
+            className="rectangle"
+            src="/images/aa3.jpg"
+            alt="rectangle"
+          />
         </div>
         <div className="tx text md:w-2/3">
           <h2 id="discover" className="text-2xl font-semibold">
-            Discover the
+            Re imagine
             <br />
             <span id="virtual" className="text-blue-600">
-              natural
+              Sustainable
             </span>{" "}
             <br />
             fashion

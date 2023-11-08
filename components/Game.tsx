@@ -60,7 +60,7 @@ const Game: React.FC = () => {
             <Image
               width={690}
               height={485}
-              src="/images/face.png"
+              src="/images/aa5.jpg"
               alt="face3"
               className="image im1"
             />
@@ -71,7 +71,7 @@ const Game: React.FC = () => {
             <Image
               width={690}
               height={485}
-              src="/images/che.PNG"
+              src="/images/a1.jpg"
               alt="wolf"
               className="image"
             />
@@ -82,7 +82,7 @@ const Game: React.FC = () => {
             <Image
               width={690}
               height={485}
-              src="/images/face2.png"
+              src="/images/aaa9.jpg"
               alt="face"
               className="image im3"
             />
