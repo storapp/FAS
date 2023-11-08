@@ -8,20 +8,20 @@ const Game: React.FC = () => {
       <div className="line hidden md:hidden lg:flex">
         <div className="flex space-x-4 items-center">
           <div className="text-lg" id="sta1">
-            Gaming spaning
+            Sustainability
           </div>
           <img alt="star" src="/images/Star.svg" />
           <div className="text-lg" id="sta1">
-            Action - packed
+            Eco-Friendly
           </div>
           <img alt="star" src="/images/Star.svg" />
           <div className="text-lg" id="sta1">
-            Mind -Bending
+            Inclusivity & Diversity
           </div>
 
           <img alt="star" src="/images/Star.svg" />
           <div className="text-lg" id="sta1">
-            Collection og game
+            Cultural Fusion
           </div>
           <img alt="star" src="/images/Star.svg" />
         </div>
@@ -30,11 +30,11 @@ const Game: React.FC = () => {
         <div className="flex space-x-4 items-center">
           <img alt="star" src="/images/Star.svg" />
           <div className="text-lg" id="sta2">
-            Action - packed
+            Cultural Fusion
           </div>
           <img alt="star" src="/images/Star.svg" />
           <div className="text-lg" id="sta2">
-            Mind -Bending
+            Inclusivity & Diversity
           </div>
 
           <img alt="star" src="/images/Star.svg" />
@@ -43,14 +43,14 @@ const Game: React.FC = () => {
       <div className="heading">
         <h1>
           Choose your <br />
-          <span id="favorite">favorite</span> games
+          <span id="favorite">favorite</span> styles
         </h1>
       </div>
 
       <div className="preview">
         <p>
-          Offer sneak peeks and previews of upcoming games, including
-          <br /> trailers, screenshots, and information about release.
+          Offer sneak peeks and previews of upcoming models, including
+          <br /> trailers, screenshots, and information about fashion shows.
         </p>
       </div>
 
@@ -96,14 +96,6 @@ const Game: React.FC = () => {
             <img
               alt="button"
               src="/images/play.svg"
-              className="absolute inset-0 w-full h-full"
-            />
-          </button>
-          <button className="bt1 relative w-24 h-12 bg-transparent">
-            <span className="z-10">PLAY NOW</span>
-            <img
-              alt="button"
-              src="/images/Rec2.svg"
               className="absolute inset-0 w-full h-full"
             />
           </button>

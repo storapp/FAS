@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const GamesGrid: React.FC = () => {
   return (
-    <div className="game-grid items-center justify-center">
+    <div className="game-grid">
       <h2>
-        Welcome to the <br />
-        top <span id="games">games</span>
+        Welcome to our <br />
+        core <span id="games">services</span>
       </h2>
       <div className="options">
         <button>
@@ -32,46 +32,46 @@ const GamesGrid: React.FC = () => {
       >
         {[
           {
-            title: "Core Philosophies",
-            imgSrc: "/images/robot.png",
+            title: "Fashion Design",
+            imgSrc: "/images/fir-4.jpg",
             profileImgSrc: "/images/cameron.svg",
             name: "Cameron Williamson",
-            company: "Gillette",
+            company: "Designer",
           },
           {
-            title: "Core Philosophies",
-            imgSrc: "/images/robot-lady.png",
+            title: "Modelling",
+            imgSrc: "/images/fir-1.jpg",
             profileImgSrc: "/images/diane.svg",
             name: "Dianne Russel",
-            company: "Louis Vuitton",
+            company: "Model",
           },
           {
-            title: "Core Philosophies",
-            imgSrc: "/images/batman.png",
+            title: "Fashion Retail",
+            imgSrc: "/images/fir-3.jpg",
             profileImgSrc: "/images/jane.svg",
             name: "Jane Cooper",
-            company: "MasterCard",
+            company: "Manager",
           },
           {
-            title: "Core Philosophies",
-            imgSrc: "/images/purp-robot.png",
+            title: "Fashion Consultations",
+            imgSrc: "/images/fir-5.jpg",
             profileImgSrc: "images/cody.svg",
             name: "Cody Fisher",
-            company: "The Walt Disney Company",
+            company: "Consultant",
           },
           {
-            title: "Core Philosophies",
-            imgSrc: "/images/us-fox.png",
+            title: "Fashion Photography",
+            imgSrc: "/images/fir-2.jpg",
             profileImgSrc: "images/wade.svg",
             name: "Wade Warren",
-            company: "Louis Vuitton",
+            company: "Photographer",
           },
           {
-            title: "Core Philosophies",
+            title: "Costumes",
             imgSrc: "/images/halloween.png",
             profileImgSrc: "images/rob.svg",
             name: "Robert Fox",
-            company: "L'oreal",
+            company: "Artist",
           },
         ].map((card, index) => (
           <div id="box" key={index} className="squarebox__box">

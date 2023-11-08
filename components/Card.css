@@ -21,7 +21,8 @@
 }
 .rectangle {
   margin-left: 165px;
-  margin-bottom: 60px;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 .tx {
   margin-left: 100px;
@@ -87,5 +88,10 @@
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
+  }
+  .rectangle {
+    margin-left: 100px;
+    margin-top: 5px;
+    border-radius: 10px;
   }
 }

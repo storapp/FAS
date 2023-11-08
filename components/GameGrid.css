@@ -59,6 +59,11 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.character {
+  height: 250px;
+  width: 350px;
+  border-radius: 10px;
+}
 .character:hover {
   border: 2px solid #65249b;
   border-radius: 10px;

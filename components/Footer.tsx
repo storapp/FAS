@@ -7,20 +7,18 @@ const Footer = () => {
     <footer className=" footer text-white py-8">
       <div className="hidden md:hidden lg:flex sta5">
         <div className="" id="sta5">
-          Aming Spaning
+          Local Sourcing
         </div>
         <img alt="star" src="/images/Star.svg" />
         <div className="" id="sta5">
-          Action - packed
+          Educational Initiatives
         </div>
         <img alt="star" src="/images/Star.svg" />
         <div className="" id="sta5">
-          Mind -Bending
+          Ethical Fashion
         </div>
         <img alt="star" src="/images/Star.svg" />
-        <div className="" id="sta5">
-          Collection og Ga
-        </div>
+        <div className="" id="sta5"></div>
       </div>
       <div className="lg:hidden md:hidden sm:flex">
         <div className="flex space-x-4 items-center">
@@ -42,18 +40,13 @@ const Footer = () => {
       >
         <div id="logo" className="mb-4 md:mb-0">
           <Link href="/" className="flex items-center">
-            <Image
-              src="/images/Group2.png"
-              alt="logo"
-              width={100}
-              height={100}
-            />
+            <h1>CZISKA</h1>
           </Link>
 
           <p id="description" className="mt-2 text-sm">
-            A well-designed gaming header often
-            <br /> incorporates elements such as game <br />
-            characters, iconic symbols, vibrant
+            A well-designed fashion company embracing
+            <br /> cutural and ethical norms to re-imagine fashion <br />
+            modelling, beauty, with vibrant
             <br /> colors, and dynamic visuals .
           </p>
         </div>
@@ -67,10 +60,10 @@ const Footer = () => {
             </Link>
 
             <Link href="/">
-              <li>Apps & Games</li>
+              <li>Models</li>
             </Link>
             <Link href="/">
-              <li>Features</li>
+              <li>Services</li>
             </Link>
           </ul>
         </div>

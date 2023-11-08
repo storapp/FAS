@@ -14,15 +14,15 @@ const routes = [
   },
   {
     href: "/",
-    label: "APP & GAMES",
+    label: "MODELS",
   },
   {
     href: "/",
-    label: "FEATURES",
+    label: "SERVICES",
   },
   {
     href: "/",
-    label: "SUPPORT",
+    label: "CONTACT",
   },
   {
     href: "/",
@@ -39,12 +39,14 @@ const Header = () => {
             {" "}
             <Link href="/" className="flex items-center">
               <Image
-                src="/images/Group2.png"
+                src="/images/czi-logo.PNG"
                 alt="logo"
-                width={100}
-                height={100}
+                width={20}
+                height={20}
               />
-              <h1 id="board" className="ml-4 text-xl font-bold"></h1>
+              <h1 id="board" className="ml-4 text-xl font-bold">
+                CZISKA
+              </h1>
             </Link>
             <Sheet>
               <SheetTrigger>

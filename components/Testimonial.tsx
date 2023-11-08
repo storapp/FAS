@@ -5,13 +5,12 @@ const Testimonials: React.FC = () => {
   return (
     <div className="relative">
       <div className="hidden md:hidden lg:flex sta9">
-        <div className="sta4">Spaning</div>
+        <div className="sta4">Reduced Waste</div>
+
         <img alt="star" src="/images/Star.svg" />
-        <div className="sta4">Action - packed</div>
+        <div className="sta4">Timeless</div>
         <img alt="star" src="/images/Star.svg" />
-        <div className="sta4">Mind -Bending</div>
-        <img alt="star" src="/images/Star.svg" />
-        <div className="sta4">Collect</div>
+        <div className="sta4">Sustainable Materials</div>
         <img alt="star" src="/images/Star.svg" />
       </div>
 
@@ -49,11 +48,11 @@ const Testimonials: React.FC = () => {
             <img alt="stars" src="/images/st.svg" />
           </div>
           <p className="vibe">
-            One of the standout features of this gaming website is its extensive
-            library of game guides and tutorials. It has helped me level up my
-            skills, conquer challenging quests, and discover hidden secrets
-            within games. The guides are comprehensive, easy to follow, and have
-            undoubtedly elevated my gaming performance.
+            One of the standout features of CZISKA fashion is its commitment to
+            sustainability and ethical practices. CZISKA fashion places a strong
+            emphasis on responsible and environmentally friendly production
+            methods, making it a leader in the industry for its dedication to
+            these principles.
           </p>
           <div className="horizontal-line"></div>
 
@@ -67,7 +66,7 @@ const Testimonials: React.FC = () => {
               <div className="info md:w-3/4">
                 <h3>Alan McCoy</h3>
                 <div>
-                  <p>McDonalds</p>
+                  <p>Fashion Critic</p>
                 </div>
               </div>
               <span>
@@ -83,11 +82,12 @@ const Testimonials: React.FC = () => {
             <img alt="stars" src="/images/st.svg" />
           </div>
           <p className="vibe">
-            Another aspect that sets this website apart is its vibrant and
-            passionate community. The forum section provides a platform for
-            gamers from all walks of life to connect, share their experiences,
-            and discuss their favorite titles. Ive made valuable friendships and
-            found like-minded individuals who share my enthusiasm for gaming.
+            The focus on creating timeless pieces that can be worn for years,
+            encourages a more sustainable approach to fashion. The demand for
+            more responsible and eco-conscious fashion choices. It not only
+            reflects a commitment to environmental responsibility but also
+            resonates with consumers who value sustainable and ethical practices
+            in the industry.
           </p>
           <div className="horizontal-line"></div>
           <div className="profile">
@@ -98,8 +98,8 @@ const Testimonials: React.FC = () => {
                 className="md:w-1/4"
               />
               <div className="info md:w-3/4">
-                <h3>Kathryn Murphy</h3>
-                <p>General Electric</p>
+                <h3>Keneth Murphy</h3>
+                <p>Journalist</p>
               </div>
               <span>
                 {" "}
@@ -118,11 +118,11 @@ const Testimonials: React.FC = () => {
           <div className="flex space-x-4 items-center sta7">
             <img alt="star" src="/images/Star.svg" />
             <div className="text-lg" id="sta">
-              Action - packed
+              Materials
             </div>
             <img alt="star" src="/images/Star.svg" />
             <div className="text-lg" id="sta2">
-              Mind -Bending
+              Fashion for a cause
             </div>
 
             <img alt="star" src="/images/Star.svg" />
@@ -149,11 +149,11 @@ const Testimonials: React.FC = () => {
               <img alt="stars" src="/images/st.svg" />
             </div>
             <p className="vibe">
-              One of the standout features of this gaming website is its
-              extensive library of game guides and tutorials. It has helped me
-              level up my skills, conquer challenging quests, and discover
-              hidden secrets within games. The guides are comprehensive, easy to
-              follow, and have undoubtedly elevated my gaming performance.
+              One of the standout features of CZISKA fashion is its commitment
+              to sustainability and ethical practices. CZISKA fashion places a
+              strong emphasis on responsible and environmentally friendly
+              production methods, making it a leader in the industry for its
+              dedication to these principles.
             </p>
             <div className="horizontal-line"></div>
 
@@ -166,7 +166,7 @@ const Testimonials: React.FC = () => {
                 />
                 <div className="info md:w-3/4">
                   <h3>Alan McCoy</h3>
-                  <p>McDonalds</p>
+                  <p>Fashion Critic</p>
                 </div>
                 <span>
                   {" "}
