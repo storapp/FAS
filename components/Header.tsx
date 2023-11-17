@@ -38,6 +38,7 @@ const Header = () => {
           <div className="flex items-center justify-between">
             {" "}
             <Link href="/" className="flex items-center">
+              <Image src="/images/ab.PNG" alt="logo" width={30} height={30} />
               <h1 id="board" className="ml-4 text-xl font-bold">
                 PRISKA STYLES
               </h1>
