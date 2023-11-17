@@ -11,7 +11,6 @@ const ContactForm = () => {
             src="https://maps.google.com/maps?q=Dar%20es%20Salaam&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
             width="100%"
             height="540"
-            allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
@@ -61,7 +60,6 @@ const ContactForm = () => {
             <textarea
               name="textarea"
               id="textarea"
-              rows="5"
               required
               className="form-control"
               placeholder="Your message here"
