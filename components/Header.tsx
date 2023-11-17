@@ -38,14 +38,8 @@ const Header = () => {
           <div className="flex items-center justify-between">
             {" "}
             <Link href="/" className="flex items-center">
-              <Image
-                src="/images/czi-logo.PNG"
-                alt="logo"
-                width={20}
-                height={20}
-              />
               <h1 id="board" className="ml-4 text-xl font-bold">
-                CZISKA
+                PRISKA STYLES
               </h1>
             </Link>
             <Sheet>

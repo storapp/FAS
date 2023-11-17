@@ -7,8 +7,8 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Cziska Fashion",
-  description: "Cziska Fashion website",
+  title: "PRISKA STYLES",
+  description: "PRISKA STYLES website",
 };
 
 export default function RootLayout({

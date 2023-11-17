@@ -40,7 +40,7 @@ const Footer = () => {
       >
         <div id="logo" className="mb-4 md:mb-0">
           <Link href="/" className="flex items-center">
-            <h1>CZISKA</h1>
+            <h1>PRISKA</h1>
           </Link>
 
           <p id="description" className="mt-2 text-sm">

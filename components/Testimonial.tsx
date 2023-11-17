@@ -49,8 +49,8 @@ const Testimonials: React.FC = () => {
               <img alt="stars" src="/images/st.svg" />
             </div>
             <p className="vibe">
-              One of the standout features of CZISKA fashion is its commitment
-              to sustainability and ethical practices. CZISKA fashion places a
+              One of the standout features of PRISKA fashion is its commitment
+              to sustainability and ethical practices. PRISKA styles places a
               strong emphasis on responsible and environmentally friendly
               production methods, making it a leader in the industry for its
               dedication to these principles.
@@ -150,8 +150,8 @@ const Testimonials: React.FC = () => {
                 <img alt="stars" src="/images/st.svg" />
               </div>
               <p className="vibe">
-                One of the standout features of CZISKA fashion is its commitment
-                to sustainability and ethical practices. CZISKA fashion places a
+                One of the standout features of PRISKA fashion is its commitment
+                to sustainability and ethical practices. PRISKA styles places a
                 strong emphasis on responsible and environmentally friendly
                 production methods, making it a leader in the industry for its
                 dedication to these principles.
