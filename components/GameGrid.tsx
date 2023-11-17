@@ -1,4 +1,5 @@
 import "./GameGrid.css";
+import Link from "next/link";
 import Image from "next/image";
 
 const GamesGrid: React.FC = () => {
@@ -96,10 +97,11 @@ const GamesGrid: React.FC = () => {
                   </div>
                 </div>
               </div>
-
-              <button title="live" className="live-btn">
-                <img alt="live button" src="images/live.svg" />
-              </button>
+              <Link href="/contact">
+                <button title="live" className="live-btn">
+                  <img alt="live button" src="images/live.svg" />
+                </button>
+              </Link>
             </div>
           </div>
         ))}

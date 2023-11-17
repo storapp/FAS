@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const Hero: React.FC = () => {
   return (
@@ -16,14 +17,18 @@ const Hero: React.FC = () => {
           forward-looking, and imaginative styles and trends.
         </p>
         <div className="mt-6 hidden md:flex">
-          <button className="bt1 relative w-24 h-12 mr-4 bg-transparent">
-            <span className="z-100">BUY NOW</span>
-            <img
-              alt="button"
-              src="/images/Rec1.svg"
-              className="absolute inset-0 w-full h-full"
-            />
-          </button>
+          <Link href="/contact">
+            <button className="bt1 relative w-24 h-12 mr-4 bg-transparent">
+              <span className="z-100 sm:inline md:hidden lg:hidden">
+                BUY NOW
+              </span>
+              <img
+                alt="button"
+                src="/images/Rec1.svg"
+                className="absolute inset-0 w-full h-full"
+              />
+            </button>
+          </Link>
         </div>
         <div className="stats hidden md:flex">
           <div className="hidden md:block">
@@ -45,14 +50,18 @@ const Hero: React.FC = () => {
       </div>
       <div className=" lg:hidden md:hidden sm:flex">
         <div className="mt-6 sm:inline md:hidden lg:hidden">
-          <button className="bt1 relative w-24 h-12 mr-4 bg-transparent">
-            <span className="z-100 sm:inline md:hidden lg:hidden">BUY NOW</span>
-            <img
-              alt="button"
-              src="/images/Rec1.svg"
-              className="absolute inset-0 w-full h-full"
-            />
-          </button>
+          <Link href="/contact">
+            <button className="bt1 relative w-24 h-12 mr-4 bg-transparent">
+              <span className="z-100 sm:inline md:hidden lg:hidden">
+                BUY NOW
+              </span>
+              <img
+                alt="button"
+                src="/images/Rec1.svg"
+                className="absolute inset-0 w-full h-full"
+              />
+            </button>
+          </Link>
         </div>
         <div className="stats sm:inline md:hidden lg:hidden">
           <div className="sm:inline md:hidden lg:hidden">
