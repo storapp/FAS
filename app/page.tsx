@@ -13,7 +13,6 @@ export default function Home() {
       <Card />
       <GamesGrid />
       <Testimonials />
-      <Footer />
     </div>
   );
 }

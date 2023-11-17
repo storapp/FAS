@@ -21,11 +21,11 @@ const routes = [
     label: "SERVICES",
   },
   {
-    href: "/",
+    href: "/contact",
     label: "CONTACT",
   },
   {
-    href: "/",
+    href: "/about",
     label: "ABOUT",
   },
 ];
