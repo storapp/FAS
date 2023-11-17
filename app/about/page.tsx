@@ -1,4 +1,4 @@
-// components/AboutUs.js
+import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
@@ -39,9 +39,9 @@ const AboutUs = () => {
           economy. Behind every person involved in the manufacturing of the
           fabric is an interesting story. And that is what I like.
         </p>
-        <Button href="/contact" variant="ghost">
-          Contact Us
-        </Button>
+        <Link href="/contact">
+          <Button variant="secondary">Contact Us</Button>
+        </Link>
       </div>
     </div>
   );
